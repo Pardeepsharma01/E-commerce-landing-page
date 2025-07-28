@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern ECommerce</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body >
+    <!-- ------------Navigation Bar------------ -->
+    <nav class="fixed w-full bg-white z-50 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex items-center">
+            <img src="images/logo.jpg" alt="Logo" class="h-12 w-auto" />
+          </div>
+          <div class="hidden md:flex items-center space-x-8">
+            <a href="#features" class="text-gray-700 hover:text-blue-600"
+              >Features</a
+            >
+            <a href="#testimonials" class="text-gray-700 hover:text-blue-600"
+              >Testimonials</a
+            >
+            <button
+              class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700"
+            >
+              Shop Now
+            </button>
+          </div>
+          <button class="md:hidden flex items-center">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- -----------Hero Section------------ -->
+    <section class="pt-24 pb-12 bg-gradient-to-br from-blue-50 to-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+          <div class="flex-1 space-y-8">
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-900">
+              Welcome to Modern ECommerce
+            </h1>
+            <p class="text-xl text-gray-600">
+              Discover endless possibilities.Find your perfect find, with just a click
+            </p>
+            <button
+              class="bg-blue-600 text-white px-8 py-4 rounded-full text-lg hover:bg-blue-700 shadow-lg hover:shadow-xl"
+            >
+              Start Shopping
+            </button>
+          </div>
+          <div class="flex-1">
+            <img
+              src="images/photo1.png"
+              alt="Product"
+              class="w-full h-auto rounded-2xl shadow-2xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------products Section------------- -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12">Featured Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div
+            class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl"
+          >
+            <img
+              src="images/photo2.png"
+              alt="Product"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Smart Watch Pro</h3>
+              <p class="text-gray-600 mb-2">$299.99</p>
+              <button
+                class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl"
+          >
+            <img
+              src="images/photo3.png"
+              alt="Product"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Premium Headphones</h3>
+              <p class="text-gray-600 mb-2">$199.99</p>
+              <button
+                class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl"
+          >
+            <img
+              src="images/photo4.png"
+              alt="Product"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Designer Sunglasses</h3>
+              <p class="text-gray-600 mb-2">$149.99</p>
+              <button
+                class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl"
+          >
+            <img
+              src="images/photo5.png"
+              alt="Product"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold">Wireless Earbuds</h3>
+              <p class="text-gray-600 mb-2">$129.99</p>
+              <button
+                class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------categories Section---------------- -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12">Shop by Category</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="relative overflow-hidden rounded-xl group">
+            <img
+              src="images/photo6.png"
+              alt="Electronics"
+              class="w-full h-64 object-cover"
+            />
+            <div class="absolute inset-0 bg-gray flex items-end">
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-white">Electronics</h3>
+                <p class="text-white/80">Latest gadgets and devices</p>
+              </div>
+            </div>
+          </div>
+          <div class="relative overflow-hidden rounded-xl group">
+            <img
+              src="images/photo7.png"
+              alt="Fashion"
+              class="w-full h-64 object-cover"
+            />
+            <div class="absolute inset-0 bg-gray flex items-end">
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-white">Fashion</h3>
+                <p class="text-white/80">Trending styles and accessories</p>
+              </div>
+            </div>
+          </div>
+          <div class="relative overflow-hidden rounded-xl group">
+            <img
+              src="images/photo8.png"
+              alt="Home & Living"
+              class="w-full h-64 object-cover"
+            />
+            <div class="absolute inset-0 bg-gray flex items-end">
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-white">Home & Living</h3>
+                <p class="text-white/80">Decor and furnishings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- -----------------features Section---------------- -->
+    <section id="features" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="p-6 rounded-xl bg-white shadow-lg hover:shadow-xl">
+            <div
+              class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Lightning Fast Delivery</h3>
+            <p class="text-gray-600">
+              Get your products delivered at your doorstep within 24 hours.
+            </p>
+          </div>
+          <div class="p-6 rounded-xl bg-white shadow-lg hover:shadow-xl">
+            <div
+              class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Secure Payments</h3>
+            <p class="text-gray-600">
+              Your transactions are protected with bank-grade security.
+            </p>
+          </div>
+          <div class="p-6 rounded-xl bg-white shadow-lg hover:shadow-xl">
+            <div
+              class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <i class="fa-solid fa-arrows-spin"></i>
+            </div>
+            <h3 class="text-xl font-semibold mb-2">Easy Returns</h3>
+            <p class="text-gray-600">
+              Not satisfied? Return within 30 days for a full refund.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------Testimonials Section---------------- -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12">
+          What Our Customers Say
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <img
+              src="images/photo9.png"
+              alt="Customer"
+              class="w-16 h-16 rounded-full mx-auto mb-4"
+            />
+            <p class="text-gray-600 mb-4">
+              "The best shopping experience I've ever had. Fast delivery and
+              amazing customer service for all!"
+            </p>
+            <h4 class="font-semibold text-center">Pardeep</h4>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <img
+              src="images/photo9.png"
+              alt="Customer"
+              class="w-16 h-16 rounded-full mx-auto mb-4"
+            />
+            <p class="text-gray-600 mb-4">
+              "The best shopping experience I've ever had. Fast delivery and
+              amazing customer service for all!"
+            </p>
+            <h4 class="font-semibold text-center">Mohit</h4>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <img
+              src="images/photo9.png"
+              alt="Customer"
+              class="w-16 h-16 rounded-full mx-auto mb-4"
+            />
+            <p class="text-gray-600 mb-4">
+              "The best shopping experience I've ever had. Fast delivery and
+              amazing customer service for all!"
+            </p>
+            <h4 class="font-semibold text-center">Gourav</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------Call to Action Section---------------- -->
+    <section class="py-20 bg-blue-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+          Ready to Transform Your Shopping Experience?
+        </h2>
+        <p class="text-blue-100 mb-8 text-lg">
+          Join thousands of satisfied customers today.
+        </p>
+        <button
+          class="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-50 shadow-lg hover:shadow-xl"
+        >
+          Get Started Now
+        </button>
+        <div class="mt-8 flex justify-center space-x-8">
+          <div class="flex items-center">
+            <i class="fa-solid fa-check text-white"></i>
+            <span class="text-blue-100">Free Shipping</span>
+          </div>
+          <div class="flex items-center">
+            <i class="fa-solid fa-check text-white"></i>
+            <span class="text-blue-100">30-Day Returns</span>
+          </div>
+          <div class="flex items-center">
+            <i class="fa-solid fa-check text-white"></i>
+            <span class="text-blue-100">24/7 Support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
