@@ -1,6 +1,6 @@
 E commerce Landing Page using HTML and Tailwind CSS
 
-Layout --
+Layout -- <br>
 Navigation bar
 Hero Section
 Product Section
